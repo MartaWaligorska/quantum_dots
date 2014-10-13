@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import sys, getopt 
 import pylab as pl
 
+# jakies zmiany
+
 def corr(x,y):
 	result = np.correlate(x, y, mode='full')
 	return result#[result.size/2:]
